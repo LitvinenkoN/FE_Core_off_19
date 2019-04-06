@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+}
+
+.header{
+    padding-top: 77px;
+}
+
+.menu{
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+}
+
+.menu>li{
+    display: inline;
+    margin-left: 120px;
+}
+
+a{
+    font-family: ﻿PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 14px;
+    color: rgba(98, 98, 98, 255);
+    text-decoration: none;
+}
+
+main{
+    width: 1000px;
+    margin: 100px auto 0;
+}
+
+section{
+    width: 450px;
+    display: inline-block;
+}
+
+.step{
+    margin-left: 50px;
+}
+
+img{
+    height: 280px;
+    width: 420px;
+}
+
+.photo{
+    margin-top: 150px;
+}
+
+p{
+    font-family: ﻿Ubuntu-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(180, 173, 158, 255);
+    text-align: left;
+    margin-top: 32px;
+}
+
+h2{
+    font-family: ﻿PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 30pt;
+    color: rgba(98, 98, 98, 255);
+    text-align: left;
+    margin-top: 34px;
+}
+
+article{
+    font-family: ﻿PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(98, 98, 98, 255);
+    text-align: left;   
+    margin-top: 34px;
+}
+
+div{
+    padding: 60px 164px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+button{
+    font-family: ﻿PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 20pt;
+    color: rgba(98, 98, 98, 255);
+    text-align: left;
+}

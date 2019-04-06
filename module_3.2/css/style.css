@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,400,500');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+.header{
+    padding: 225px 346px;
+    background-image: url(../img/photo-1433354359170-23a4ae7338c6@1X.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header-title{
+    font-weight: 100;
+    font-size: 60px;
+    color: rgba(40, 40, 40, 255);
+    text-align: center;
+    width: 708px
+}
+ 
+.header-button{
+    background-color: #ff6d6d;
+    border: none;
+    padding: 20px 50px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-weight: 400;
+    display: block;
+    margin: 141px auto 20px;
+}
+
+.header-note{
+    font-weight: 400;
+    font-size: 14pt;
+    color: rgba(40, 40, 40, 255);
+    text-align: center;
+    display: block;
+}
+
+main{
+    margin: 0 auto;
+}
+
+.design{
+    background-image: linear-gradient(to right top, #262729, #434348, #646068, #897f88, #b19fa8);
+} 
+
+.new-design{
+    padding: 200px 140px 160px 150px;
+    width: 870px;
+    background-color: #fff
+}
+.new-design_subtitle, .feature_subtitle {
+    display: block;
+    font-size: 16px;
+    color: rgba(255, 109, 109, 255);
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.new-design_title, .feature-title{
+    font-weight: 400;
+    font-size: 40px;
+    color: rgba(40, 40, 40, 255);
+    margin-bottom: 45px;
+}
+
+.new-design_text{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(40, 40, 40, 255);
+    margin-bottom: 40px;
+}
+
+.new-design_text:last-child{
+    margin-bottom: 0;
+}
+
+.feature{
+    background-image: url(../img/BG3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -20px;
+    padding: 140px 0 184px;
+}
+
+.feature_subtitle{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.feature-title{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.feature-list{
+    list-style: none;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.feature_list-item{
+    display: inline-block;
+    width: 342px;
+    margin-right: 46px;
+}
+
+.feature_list-item:last-child{
+    margin-right:0;
+}
+
+.feature_list-item h3{
+    font-size: 22px;
+    color: rgba(40, 40, 40, 255);
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.feature_list-item p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(40, 40, 40, 225);
+    text-align: center;
+}
+
+.item::before{
+    content: '';
+    margin: 0 auto 30px;
+    display: block;
+    width: 65px;
+    height: 65px;
+    background-image: url(../img/picture@1X.png);
+
+}
+
+.second::before{
+    background-image: url(../img/airplane@1X.png);
+}
+
+.third::before{
+    background-image: url(../img/bulb@1X.png);
+}
