@@ -7,8 +7,10 @@
 .body{
 }
 
-.header{
+.container{
     padding-top: 77px;
+    margin: 0 auto;
+    width: 900px;
 }
 
 .menu{
@@ -34,13 +36,8 @@ a{
     display: block;
 }
 
-main{
-    font-size: 0;
-    width: 1000px;
-    margin: 100px auto 0;
-}
 section{
-    padding-bottom: 77px;
+    font-size: 0;
 }
 
 article{
