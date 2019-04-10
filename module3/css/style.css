@@ -21,8 +21,12 @@
 }
 
 .menu>li{
-    display: inline;
+    display: inline-block;
     margin-left: 120px;
+}
+
+menu>li:last-child{
+    margin-right: 0;
 }
 
 a{
@@ -38,6 +42,7 @@ a{
 
 section{
     font-size: 0;
+    padding-bottom: 77px;
 }
 
 article{
@@ -54,10 +59,6 @@ img{
     height: 280px;
     width: 420px;
     margin-bottom: 0;
-}
-
-.photo{
-    margin-top: 150px;
 }
 
 p{
@@ -82,6 +83,7 @@ h2{
     color: rgba(98, 98, 98, 255);
     text-align: left;   
     margin-top: 34px;
+    margin-bottom: 150px;
 }
 
 button{
