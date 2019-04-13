@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 1140px;
+    height: auto;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    width: 78px;
+    height: 21px;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+.menu{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list{
+    float: left;
+}
+
+.list:not(:nth-child(6)){
+    margin-right: 35px;
+}
+
+a{
+    font-family: ﻿OpenSans-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.link{
+    color: rgba(26, 188, 156, 255);
+}
+
+main{
+    width: 1100px;
+    padding-top: 110px;
+    margin: 0 auto;
+
+}
+
+h2{
+    font-family: ﻿Roboto-Black, ﻿AdobeInvisFont, ﻿MyriadPro-Regular,  sans-serif;
+    font-size: 34pt;
+    color: rgba(81, 81, 81, 255);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2::after{
+    display: block;
+    content: '';
+    width: 164px;
+    height: 7px;
+    background-color: rgba(26, 188, 156, 255);
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 130px;
+    
+}
+.block{
+    width: 1350px;
+    margin: 0 auto;
+    padding-bottom: 110px;
+}
+.product{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: auto;
+    overflow: hidden;
+}
+
+.product-card{
+    background-image: url(../img/Rectangle\ 50@1X.png);
+    width: 255px;
+    height: 322px;
+    float: left;
+}
+
+.product-card:not(:nth-child(4n)){
+    margin-right: 25px;
+}
+
+.product-card:not(:nth-last-child(-n+4)){
+    margin-bottom: 25px;
+}
+
+img{
+    width: 255px;
+    height: 282px;
+}
+
+.price{
+    width: 255px;
+    height: 40px;
+    background-color: #323232;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow: hidden;
+}
+
+.price-title{
+    float: left;
+    font-family: ﻿Roboto-Black, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+    font-size: 18pt;
+    color: rgba(255, 255, 255, 255);
+}
+
+.price-cash{
+    float: right;
+    font-family: ﻿Roboto-Black, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+    font-size: 18pt;
+    color: rgba(255, 255, 255, 255);
+    width: 54px;
+    height: 40px;
+    background-color: #b1b0b0;
+}
+
+.product-card:hover .price{
+    background-color: #1abc9c;
+}
+
+.product-card:hover .price-cash{
+    background-color: #7fd9c7;
+}
+
+.conteiner{
+    margin: 0 auto;
+    padding-bottom: 85px;
+    width: 1100px;
+}
+
+.news{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow: hidden;
+    margin-top: 80px;
+    list-style: none;
+}
+
+.post{
+    float: left;
+    width: 350px;
+}
+
+.photo{
+    width: 350px;
+    height: 260px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.post:not(:nth-child(3)){
+    margin-right: 25px;
+}
+
+h3{
+    font-family: ﻿OpenSans-Semibold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+    font-size: 14pt;
+    color: rgba(85, 82, 82, 255);
+    text-align: left;
+}
+
+h3::after{
+    display: block;
+    content: '';
+    width: 136px;
+    height: 3px;
+    background-color: rgba(26, 188, 156, 255);
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.text{
+    font-family: ﻿OpenSans, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(85, 82, 82, 255);
+    text-align: left;
+}
+
+button{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: rgba(26, 188, 156, 255);
+    color: white;
+    margin-top: 5px;
+}
