@@ -13,16 +13,14 @@
 .logo{
     float: left;
     text-decoration: none;
+    font-family: ﻿Roboto-Light, ﻿Roboto-Black, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+    font-size: 30pt;
+    color: #555252;
+    text-transform: uppercase;
 }
 
-.logo::before{
-    content: '';
-    display: inline-block;
-    width: 70px;
-    height: 20px;
-    background-size: contain;
-    background-position: center;
-    background-image: url(../img/mart@1X.png);
+.logo:hover{
+    color: #1abc9c;
 }
 
 .clearfix::after{
@@ -149,15 +147,12 @@ img{
     background-color: #7fd9c7;
 }
 
-div{
-    margin: 0;
-    padding: 0;
-    padding-bottom: 100px;
-}
-
 section{
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    /* margin: 0; */
+    /* padding: 0; */
+    width: 1100px;
+    padding-bottom: 100px;
 }
 
 .news{
@@ -211,7 +206,7 @@ h3::after{
 .button{
     display: inline-block;
     text-decoration: none;
-    background-image: url(../img/Rectangle\ 36@1X.png);
+    background-color: #4ec6ab;
     text-align: center;
     width: 160px;
     height: 50px;
