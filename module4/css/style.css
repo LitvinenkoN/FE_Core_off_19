@@ -108,10 +108,10 @@ h2::after{
     margin-bottom: 25px;
 }
 
-img{
+/* img{
     width: 255px;
     height: 282px;
-}
+} */
 
 a{
     display: block;
@@ -173,7 +173,7 @@ section{
     width: 350px;
 }
 
-.photo{
+.img{
     display: block;
     max-width: 100%;
     height: auto;
