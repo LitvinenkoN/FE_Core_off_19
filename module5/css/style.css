@@ -209,17 +209,15 @@ img{
 
 .product-list-actions li:not(last-child){
     margin-bottom: 7px;
-    margin-right: 2px;
-    margin-left: 2px;
+    margin-right: 4px;
 }
 
-.product-list-ations li{
+.product-list-actions li{
     float: left;
     list-style: none;
 }
 
 .heart, .ikon, .clock{
-    float: right;
     width: 50px;
     height: 50px;
     background-position: center;
@@ -254,7 +252,6 @@ img{
 }
 
 .trash{
-    clear: right;
     width: 166px;
     height: 50px;
     background-image: url(../img/trash@1X.png);
