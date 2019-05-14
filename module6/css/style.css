@@ -72,6 +72,7 @@
     padding: 0;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 102px;
 }
 
 .text{
@@ -80,6 +81,7 @@
     font-weight: 600;
     font-size: 24px;
     color: rgba(51, 51, 51, 255);
+    margin: 0;
     margin-bottom: 22px;
     
 }
@@ -90,6 +92,9 @@
     text-transform: uppercase;
     color: rgba(51, 51, 51, 255);
     font-weight: bold;
+    margin: 0;
+    margin-bottom: 70px;
+
 }
 
 .title::after{
@@ -99,14 +104,14 @@
     height: 3px;
     margin: auto;
     background-color: #f38181;
-    margin-top: 42px;
+    margin-top: 42px;   
 }
 
 .item-box{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 70px auto 102px;
+    /* margin: 70px auto 102px; */
     padding: 0;
 }
 
@@ -156,12 +161,14 @@
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     color: rgba(51, 51, 51, 255);
+    margin: 0;
     margin-bottom: 20px;
     padding-left: 62px;
     text-transform: uppercase;
 }
 
 .text-item{
+    margin: 0;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     color: rgba(153, 153, 153, 255);
@@ -182,10 +189,12 @@
     font-weight: 600;
     font-size: 24px;
     color: rgba(51, 51, 51, 255);
+    margin: 0;
     margin-bottom: 22px;
 }
 
 .title-team{
+    margin: 0;
     margin-bottom: 46px;
     font-family: "Montserrat-Bold", sans-serif;
     font-size: 30px;
@@ -211,6 +220,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     color: rgba(153, 153, 153, 255);
+    margin: 0;
     margin-bottom: 86px;
 }
 
@@ -241,6 +251,7 @@ img{
 }
 
 .subtext-team{
+    margin: 0;
     font-family: "Roboto";
     font-size: 15px;
     color: rgba(153, 153, 153, 255);
