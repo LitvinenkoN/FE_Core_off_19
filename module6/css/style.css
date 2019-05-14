@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:100,400,500|Kaushan+Script|Montserrat');
 
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -18,7 +16,7 @@
 .logo{
     font-family: "Montserrat-Regular", sans-serif;
     display: block;
-    margin: 28px 0;
+    margin: 0;
     padding: 0;
     text-decoration: none;
     font-size: 30px;
@@ -36,7 +34,9 @@
     padding: 0;
 }
 
-.menu-item{
+.menu-link{
+    display: block;
+    text-decoration: none;
     text-transform: uppercase;
     font-family: "Montserrat-Regular",sans-serif;
     font-size: 14px;
@@ -56,11 +56,15 @@
 }
 
 .menu-item:hover::after{
+    transition-property: all;
+    transition-duration: 1s;
     opacity: 1;
 }
 
-.menu-item:hover{
+.menu-link:hover{
     color: #f38181;
+    transition-property: color;
+    transition-duration: 1s;
 }
 
 .container{
@@ -167,6 +171,7 @@
 .team{
     margin: 0 auto;
     padding: 0;
+    padding-bottom: 86px;
     text-align: center;
     width: 1224px;
 }
@@ -239,7 +244,6 @@ img{
     font-family: "Roboto";
     font-size: 15px;
     color: rgba(153, 153, 153, 255);
-    margin-bottom: 86px;
 }
 
 .overlay{
@@ -247,17 +251,26 @@ img{
     width: 382px;
     height: 472px;
     opacity: 0; 
+    z-index: 1;
+    background-image: linear-gradient( to bottom, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9)100% );
+    transition: transform 0.2s linear opacity 0.2s linear;
       
 }
 
-.overlay:hover{
-    opacity: 0.8;
-    background-image: linear-gradient(to left top, #fce38a, #ffca7d, #ffb078, #fe987a, #f38181);
-    transition-duration: 2s;
-    transform: translate(-6px, -6px);
-    box-shadow:  6px 6px rgba( 149, 225, 211, 0.9 );
+.menu-team:hover .overlay{
+    opacity: 1;
+    /* background-image: linear-gradient(to left top, #fce38a, #ffca7d, #ffb078, #fe987a, #f38181); */
+    transform: translate(-10px, -10px);
+    box-shadow:  10px 10px rgba( 149, 225, 211, 0.9 );
 }
 
+.photo-team{
+    transition: transform 0.2s linear;
+}
+
+.menu-team:hover .photo-team{
+    transform: translate(-10px, -10px);
+}
 
 .list-overlay{
     position: absolute;
@@ -271,8 +284,8 @@ img{
     list-style: none;
 }
 
-.overlay-ikon{
-    border: none;
+.link-btn{
+    display: block;
     width: 56px;
     height: 56px;
     background-color: #fce38a;
@@ -296,7 +309,7 @@ img{
     background-image: url(../img/instagram@1X.png);
 }
 
-.overlay-ikon:hover{
+.link-btn:hover{
     background-color: #95e1d3;
 }
 
@@ -323,23 +336,18 @@ img{
     color: #f9c6c6;
 }
 
-.page-location{
+.sign-up{
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
-    /* height: 40px; */
-
 }
 
-.page-link{
-    display: block;
+.sign-up input{
     width: 230px;
     height: 40px;
-    margin: 0;
-    padding: 0;
+    border: none;
     border: 2px solid #e5e5e5;
-    text-align: left;
     line-height: 40px;
     text-indent: 10px;
     text-decoration: none;
