@@ -23,9 +23,8 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    width: 932px;
+    /* width: 932px; */
     min-height: 82px;
-    margin-bottom: 120px;
 }
 
 .link-logo{
@@ -60,6 +59,7 @@
 .container{
     width: 934px;
     padding-bottom: 122px;
+    padding-top: 120px;
     margin: 0 auto;
     text-align: center;
 }
@@ -133,12 +133,10 @@
 }
 
 .contact-box{
-    position: relative;
     margin: 0 auto;
     padding: 0;
     padding-top: 110px;
-    width: 1400px;
-    height: 678px;
+    padding-bottom: 114px;
     text-align: center;
     background-color: #222222;
     background-image: url(../img/Map\ Image@1X.png);
@@ -163,31 +161,24 @@
     font-style: italic;
 }
 
-.clearfix{
-    clear: both;
-    display: table;
-    content: '';
-}
-
-.form-cont{
-   
-}
-
 .form-box{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
     margin-bottom: 56px;
-    margin-left: 226px;
-    width: 455px;
+    width: 950px;
     height: 210px;
 }
 
+.container-cont{
+    margin: 0;
+    padding: 0;
+}
+
 .form-message{
-    position: absolute;
-    right: 226px;
-    top: 278px;
-    width: 455px;
+    width: 456px;
     height: 210px;
     resize: none;
     padding: 20px 20px;
@@ -202,6 +193,7 @@
 }
 
 .form-box input{
+    width: 456px;
     height: 50px;
     padding: 20px 20px;
     
