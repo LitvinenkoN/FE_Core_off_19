@@ -243,7 +243,6 @@ img{
 }
 
 .header{
-    width: 768px;
     background-image: url(../img/Vector\ Smart\ Object@1X\ \(1\).png);
     background-position: center;
     background-color: rgba(0, 0, 0, 0.3);
@@ -292,14 +291,11 @@ img{
     }
 }
 
-@media (min-width:960px) and (max-width:1440px){
+@media (min-width:960px){
     .container, .head-container{
-        width: 1440px;
+        width: 940px;
     }
 
-    .header{
-        width: 1440px;
-    }
 
     .nav-container{
         width: 940px;
