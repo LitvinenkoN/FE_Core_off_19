@@ -20,20 +20,23 @@
     box-sizing: border-box;
 }
 
+.header{
+    background-image: url(../img/Vector\ Smart\ Object@1X.png);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .head-container{
     margin: 0 auto;
+    text-align: center;
     width: 320px;
     padding-top: 18px;
     padding-bottom: 140px;
     line-height: 1.2;
-    text-align: center;
-    background-image: url(../img/Vector\ Smart\ Object@1X.png);
-    background-color: rgba(0, 0, 0, 0.3);
-    background-repeat: no-repeat;
-    block-size: 100%;
 }
 
-.link-box{
+.nav-container{
     display: flex;
     flex-direction: column-reverse;
     margin: auto;
@@ -101,23 +104,19 @@
     margin-bottom: 18px;
 }
 
-.head-btn{
+.head-link{
     display: block;
     margin: 0 auto;
-    border: none;
+    text-decoration: none;
     width: 280px;
     height: 40px;
     background-color: #ff4e50;
     border-radius: 32%;
-    cursor: pointer;
+    padding-top: 12px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: rgba(255, 255, 255, 255);
     font-weight: bold;
-}
-
-.head-btn:focus{
-    outline: none;
 }
 
 .container{
@@ -234,24 +233,29 @@ img{
     outline: none;
 }
 
-@media (min-width:748px){
+@media (min-width:768px){
 .head-container, .container{
-        width: 768px;
+        width: 748px;
     }
     
 .head-container{
+    padding-bottom: 234px;
+}
+
+.header{
+    width: 768px;
     background-image: url(../img/Vector\ Smart\ Object@1X\ \(1\).png);
     background-position: center;
     background-color: rgba(0, 0, 0, 0.3);
     background-repeat: no-repeat;
-    padding-bottom: 234px;
+    background-size: cover;
 }
 
 .btn-box{
     margin: 0;
 }
 
-.link-box{
+.nav-container{
     display: flex;
     flex-direction: row;
    justify-content: space-between;
@@ -269,7 +273,7 @@ img{
     font-size: 24px;
 }
 
-.head-btn{
+.head-link{
     width: 224px;
 }
 
@@ -288,15 +292,16 @@ img{
     }
 }
 
-@media (min-width:1420px){
-    .head-container{
+@media (min-width:960px) and (max-width:1440px){
+    .container, .head-container{
         width: 1440px;
-        background-image: url(../img/Vector\ Smart\ Object@1X\ \(1\).png);
-        background-repeat: no-repeat;
-        background-size: cover;
     }
-    
-    .link-box{
+
+    .header{
+        width: 1440px;
+    }
+
+    .nav-container{
         width: 940px;
         margin-bottom: 160px;
     }
@@ -306,10 +311,6 @@ img{
         width: 478px;
         margin: 0 auto;
         margin-bottom: 40px;
-    }
-
-    .container{
-        width: 1440px;
     }
 
     .title-team{
