@@ -1,0 +1,317 @@
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../font/montserrat-v13-latin-regular.woff);
+    src: url(../font/montserrat-v13-latin-regular.woff2);
+    font-weight: 400;
+    font-size: normal;
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url(../font/roboto-v19-latin-regular.woff);
+    src: url(../font/roboto-v19-latin-regular.woff2);
+    font-weight: 300;
+    font-size: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-box{
+    margin: 0 auto;
+   text-align: center;
+   padding-top: 18px;
+   padding-bottom: 140px;
+   line-height: 1.2;
+   background-image: url(../img/Vector\ Smart\ Object@1X.png);
+   background-color: rgba(0, 0, 0, 0.3);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.flex-reverse{
+   display: flex;
+   flex-direction: column-reverse;
+   margin: auto;
+   margin-bottom: 38px;
+}
+
+.justify-between{
+    display: flex;
+    justify-content: space-between;
+   margin: auto;
+   margin-bottom: 116px;
+}
+
+.link-btn{
+   display: block;
+   width: 90px;
+   height: 36px;
+   border: none;
+   background-color: transparent;
+}
+
+.link{
+   display: block;
+   margin: 0;
+   padding: 0;
+   color: #ffffff;
+   text-align: center;
+   font-weight: bold;
+   text-decoration: none;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+}
+
+.link-btn:hover{
+   border: 2px solid #ffffff;
+   border-radius: 40%;
+}
+
+.title{
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   text-transform: uppercase;
+   color: rgba(255, 255, 255, 255);
+}
+
+.subtitle{
+   font-family: 'Montserrat', sans-serif; 
+   font-size: 30.01471px;
+   color: rgba(255, 255, 255, 255);
+   font-weight: bold;
+   text-transform: uppercase;
+   margin-bottom: 18px;
+   margin: 0;
+}
+
+.text{
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18.00883px;
+   color: rgba(255, 255, 255, 255);
+   font-weight: 300;
+   margin-bottom: 18px;
+}
+
+.head-link{
+   display: block;
+   margin: 0 auto;
+   text-decoration: none;
+   width: 280px;
+   height: 40px;
+   background-color: #ff4e50;
+   border-radius: 32%;
+   padding-top: 12px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   color: rgba(255, 255, 255, 255);
+   font-weight: bold;
+}
+
+.team-box{
+    padding-top: 78px;
+    padding-bottom: 56px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.title-team{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: rgba(51, 51, 51, 255);
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.team-list{
+    font-size: 14px;
+    list-style: none;
+}
+
+.team-item{
+    width: 216px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.team-item img{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.team-photo{
+    margin: 0;
+    position: relative;
+}
+
+.team-photo::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/Shape\ 128@1X.png);
+    background-color: #ff4e50;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+.ikon::after{
+    background-image: url(../img/Shape\ 155@1X.png);
+    background-color: #ffa507;
+}
+
+.cup::after{
+    background-image: url(../img/Shape\ 153@1X.png);
+    background-color: #1cd7ad;
+}
+
+.mes::after{
+    background-image: url(../img/Shape\ 170@1X.png);
+    background-color: #4e73db;
+}
+
+.name-team{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 255);
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.team-text{
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 255);
+    font-weight: 300;
+}
+
+.team-btn{
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    height: 40px;
+    border-radius: 30%;
+    border: none;
+    border: 2px solid #ff4e50;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgba(255, 78, 80, 255);
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.team-btn:focus{
+    outline: none;
+}
+
+@media (min-width:768px){
+    
+    .header-box{
+        background-image: url(../img/Vector\ Smart\ Object@1X\ \(1\).png);
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.3);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .btn-box{
+        margin: 0;
+    }
+    
+.justify-between{
+    margin: 0;
+}
+
+    .flex-reverse{
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+       margin: auto;
+       /* width: 670px; */
+       margin-bottom: 152px;
+    }
+    
+    .subtitle{
+        margin-bottom: 40px;
+        font-size: 40px;
+    }
+    
+    .text{
+        margin-bottom: 34px;
+        font-size: 24px;
+    }
+    
+    .head-link{
+        width: 224px;
+    }
+
+    .team-list{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin: auto;
+            width: 474px;
+            height: 500px;
+        }
+    
+        .team-btn{
+            width: 192px;
+        }
+    }
+    
+    @media (min-width:992px){
+    
+    
+        .flex-reverse{
+            width: 940px;
+            margin-bottom: 160px;
+        }
+    
+        .subtitle{
+            font-size: 48px;
+            width: 478px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+    
+        .title-team{
+            margin-bottom: 32px;
+        }
+    
+        .team-list{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            margin: auto;
+            height: auto;
+            width: 916px;
+        }
+    
+        .team-item{
+            width: 216px;
+        }
+    }
+    
+    
