@@ -115,6 +115,7 @@
 }
 
 .team-box{
+    
     padding-top: 78px;
     padding-bottom: 56px;
     text-align: center;
@@ -206,13 +207,14 @@ img{
     font-weight: 300;
 }
 
-.team-btn{
+.team-link{
     display: block;
     margin: 0 auto;
     width: 280px;
     height: 40px;
+    padding-top: 10px;
+    text-decoration: none;
     border-radius: 30%;
-    border: none;
     border: 2px solid #ff4e50;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
@@ -276,7 +278,7 @@ img{
             height: 500px;
         }
     
-        .team-btn{
+        .team-link{
             width: 192px;
         }
     }
