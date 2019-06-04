@@ -473,7 +473,7 @@ img{
     fill: #ffffff;
 }
 
-.link-btn:hover{
+.link-btn:hover svg{
     background-color: #f38181;
 }
 
