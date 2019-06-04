@@ -461,6 +461,7 @@ img{
 }
 
 .link-btn{
+    position: absolute;
     display: block;
     width: 56px;
     height: 56px;
@@ -474,14 +475,14 @@ img{
     fill: #ffffff;
 }
 
+
+
 .list-overlay svg{
     display: inline-block;
     width: 30px;
     height: 30px;
     fill: #f38181;
 }
-
-
 
 .page-container{
     display: -webkit-box;
