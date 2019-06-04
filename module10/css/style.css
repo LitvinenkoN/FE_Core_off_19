@@ -465,15 +465,21 @@ img{
     width: 56px;
     height: 56px;
     padding-top: 26px;
+    text-align: center;
+    line-height: 560px;
     background-color: #fce38a;
 }
 
-/* .list-overlay svg{
-    display: block;
-    width: 56px;
-    height: 56px;
+.list-overlay svg{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
     fill: #f38181;
-} */
+}
+
+.list-overlay a:hover svg{
+    fill: #ffffff;
+}
 
 .page-container{
     display: -webkit-box;
