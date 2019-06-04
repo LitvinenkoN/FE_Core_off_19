@@ -473,7 +473,7 @@ img{
     fill: #ffffff;
 }
 
-svg:hover .list-overlay{
+.link-btn:hover{
     background-color: #f38181;
 }
 
