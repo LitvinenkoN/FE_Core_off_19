@@ -464,7 +464,6 @@ img{
     display: block;
     width: 56px;
     height: 56px;
-    padding-top: 26px;
     text-align: center;
     line-height: 56px;
     background-color: #fce38a;
@@ -474,7 +473,7 @@ img{
     fill: #ffffff;
 }
 
-svg:hover .link-btn{
+.link-btn:hover{
     background-color: #f38181;
 }
 
