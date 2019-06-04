@@ -470,17 +470,14 @@ img{
 }
 
 .list-overlay a:hover svg{
-    fill: #ffffff;
-}
-
-.link-btn:hover svg{
     background-color: #f38181;
+    fill: #ffffff;
 }
 
 .list-overlay svg{
     display: inline-block;
-    width: 56px;
-    height: 56px;
+    width: 30px;
+    height: 30px;
     fill: #f38181;
 }
 
