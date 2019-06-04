@@ -470,14 +470,14 @@ img{
     background-color: #fce38a;
 }
 
-.list-overlay svg{
+.menu-overlay svg{
     display: inline-block;
     width: 30px;
     height: 30px;
     fill: #f38181;
 }
 
-.list-overlay a:hover svg{
+.menu-overlay a:hover svg{
     fill: #ffffff;
 }
 
