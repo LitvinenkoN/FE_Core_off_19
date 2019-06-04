@@ -460,8 +460,14 @@ img{
     list-style: none;
 }
 
+.menu-overlay{
+    position: relative;
+}
+
 .link-btn{
     position: absolute;
+    top: 0;
+    left: 0;
     display: block;
     width: 56px;
     height: 56px;
@@ -475,7 +481,9 @@ img{
     fill: #ffffff;
 }
 
-
+svg:hover .link-btn{
+    background-color: #f38181;
+}
 
 .list-overlay svg{
     display: inline-block;
