@@ -461,6 +461,7 @@ img{
 }
 
 .link-btn{
+    position: absolute;
     display: block;
     width: 56px;
     height: 56px;
@@ -471,7 +472,6 @@ img{
 }
 
 .menu-overlay svg{
-    position: absolute;
     display: inline-block;
     width: 30px;
     height: 30px;
