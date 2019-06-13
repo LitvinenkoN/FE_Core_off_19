@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$color-dark: rgb(47, 47, 47);
+$size: 100px;
+
+.var-background{
+    width: $size*2;
+    height: $size*2;
+    background-color: $color-dark;
+}
