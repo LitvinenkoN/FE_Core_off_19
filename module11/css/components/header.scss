@@ -2,18 +2,14 @@
     position: relative;
     width: $primary_size;
     height: $base-size;
-    background-image: url(/img/Layer@1X.png);
+    background-image: url(/img/15@1X-min.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .cart, .glass{
-        width: 18px;
-        height: 18px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    @extend %header__icon;
 }
 
 .cart{
@@ -26,7 +22,7 @@
 
 @media(min-resolution:192dpi), (min-resolution:2dppx){
     .header{
-        background-image: url(/img/Layer@2X.png);
+        background-image: url(/img/15@2X.png);
     }
 
     .cart{
@@ -74,7 +70,7 @@
 
 .header-list__link{
     text-transform: uppercase;
-    font-family: "Montserrat-Regular",sans-serif;
+    font-family: $font-montserrat;
     font-size: $font-base-size;
     font-weight: bold;
     color: $color-white;
@@ -102,35 +98,35 @@
 }
 
 .header__text{
-    margin-bottom: 42px;
-    font-family: 'Kaushan Script', cursive;
-    font-weight: 400;
-    font-size: 72px;
+    margin-bottom: $margin-bottom + 22;
+    font-family: $font_kaushan, cursive;
+    font-weight: $font-weight;
+    font-size: $font-base-size + 58;
     text-align: center;
     color: $color-white;
 }
 
 .header__subtitle{
     margin: 0 auto;
-    margin-bottom: 122px;
-    width: 802px;
-    font-family: 'Montserrat-Bold', sans-serif;
+    margin-bottom: $margin-bottom + 100;
+    width: $base-size - 198;
+    font-family: $font-montserrat;
     font-weight: bold;
     color: $color-white;
-    font-size: 150px;
+    font-size: $font-base-size + 136;
     text-transform: uppercase;
     text-align: center;
 }
 
 .header__link{
     margin: 0 auto;
-    width: 160px;
-    padding: 20px;
+    width: $width-page-btn + 10;
+    padding: $padding;
     outline: solid 2px $color-white;
     background-color: transparent;
-    font-family: 'Montserrat-bold', sans-serif;
+    font-family: $font-montserrat;
     font-weight: bold;
-    font-size: 14px;
+    font-size: $font-base-size;
     color: $color-white;
     text-align: center;
     text-transform: uppercase;

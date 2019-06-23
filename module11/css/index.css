@@ -142,6 +142,14 @@ img {
   cursor: pointer;
 }
 
+.header-list__link:hover {
+  color: rgba(252, 227, 138, 0.9);
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 .header-list__item::after {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -155,20 +163,12 @@ img {
   opacity: 0;
 }
 
-.header-list__item:hover:not(:nth-last-child(-n+2))::after {
+.header-list__item::after:hover:not(:nth-last-child(-n+2))::after {
   -webkit-transition-property: all;
   transition-property: all;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   opacity: 1;
-}
-
-.header-list__link:hover {
-  color: rgba(252, 227, 138, 0.9);
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
 }
 
 .header__text {
