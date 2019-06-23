@@ -87,14 +87,15 @@
     content: '';
     flex-basis: 50px;
     height: 3px;
-    background-color: #FBDE8A;
+    background-color: $primary-color;
     margin-top: $margin-top;
     opacity: 0;
-    &:hover:not(:nth-last-child(-n+2))::after{
-        transition-property: all;
-        transition-duration: 1s;
-        opacity: 1;
-    }
+}
+
+.header-list__item:hover:not(:nth-last-child(-n+2))::after{
+    transition-property: all;
+    transition-duration: 1s;
+    opacity: 1;
 }
 
 .header__text{
