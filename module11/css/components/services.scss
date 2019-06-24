@@ -1,0 +1,84 @@
+.services{
+    @extend %services;
+ }
+ 
+ .section__subtitle{
+     @extend %section__subtitle;
+ }
+ 
+ .section__title{
+    @extend %section__title;
+    &::after{
+     display: block;
+     content: '';
+     width: $title_after_width;
+     height: 3px;
+     margin: auto;
+     background-color: $secondary-color;
+     margin-top: $margin-top + 28;   
+ }
+ }
+ 
+ .services__list{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+ 
+ .services__item{
+     position: relative;
+     text-align: start;
+     flex: 0 0 340px;
+     &:nth-child(-n+3){
+         margin-bottom: $margin-bottom + 80;
+     }
+ }
+ 
+ .services__title::before{
+     position: absolute;
+     top: 0;
+     left: 0;
+     content: '';
+     display: block;
+     width: $size_before;
+     height: $size_before;
+     background-image: url(/img/icons/ALARM.svg);
+     
+ 
+ }
+ 
+ .linear::before{
+     background-image: url(/img/icons/LINEGRAPH.svg);
+ }
+ 
+ .comp::before{
+     background-image: url(/img/icons/COMPUTER.svg);
+ }
+ 
+ .book::before{
+     background-image: url(/img/icons/BOOK2.svg);
+ }
+ 
+ .house::before{
+     background-image: url(/img/icons/HOME.svg);
+ }
+ .digital::before{
+     background-image: url(/img/icons/IMAGE.svg);
+ }
+ 
+ .services__title{
+     font-family: $font-montserrat;
+     font-size: $font-base-size;
+     color: $color-page-container;
+     margin-bottom: $margin-bottom;
+     padding-left: $padding-left;
+     text-transform: uppercase;
+ }
+ 
+ .services__text{
+     font-family: $font-roboto;
+     font-size: $font-base-size;
+     color: $color-services;
+     padding-left: $padding-left;
+ }
+ 

@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "mixins.scss"
+        "services.scss"
     ],
     "names": [],
-    "file": "mixins.css"
+    "file": "services.css"
 }

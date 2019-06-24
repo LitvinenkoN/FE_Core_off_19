@@ -1,0 +1,84 @@
+.page-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 1200px;
+  height: 62px;
+  border-top: 2px solid #e5e5e5;
+}
+
+.page__container {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #333333;
+}
+
+.page__name {
+  color: #f9c6c6;
+}
+
+.sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.sign-up input {
+  width: 230px;
+  height: 37px;
+  border: none;
+  line-height: 40px;
+  text-indent: 10px;
+  border: solid 1px #D6D6D6;
+}
+
+.sign-up input::-webkit-input-placeholder {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 15px;
+  color: #D6D6D6;
+}
+
+.sign-up input:-ms-input-placeholder {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 15px;
+  color: #D6D6D6;
+}
+
+.sign-up input::-ms-input-placeholder {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 15px;
+  color: #D6D6D6;
+}
+
+.sign-up input::placeholder {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 15px;
+  color: #D6D6D6;
+}
+
+.page__btn {
+  width: 150px;
+  height: 40px;
+  background-color: #95e1d3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border: none;
+}
+/*# sourceMappingURL=page_footer.css.map */
