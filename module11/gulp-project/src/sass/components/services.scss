@@ -42,28 +42,28 @@
      display: block;
      width: $size_before;
      height: $size_before;
-     background-image: url();
+     background-image: url(/gulp-project/src/images/sprite.svg#icon-alarm);
      
  
  }
  
  .linear::before{
-     background-image: url();
+     background-image: url(/gulp-project/src/images/sprite.svg#icon-graf);
  }
  
  .comp::before{
-     background-image: url();
+     background-image: url(/gulp-project/src/images/sprite.svg#icon-computer);
  }
  
  .book::before{
-     background-image: url();
+     background-image: url(/gulp-project/src/images/sprite.svg#icon-book);
  }
  
  .house::before{
-     background-image: ur();
+     background-image: url(/gulp-project/src/images/sprite.svg#icon-home);
  }
  .digital::before{
-     background-image: url();
+     background-image: url(/gulp-project/src/images/sprite.svg#icon-image);
  }
  
  .services__title{
