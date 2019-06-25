@@ -1,0 +1,70 @@
+.page-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: $base-size + 200;
+    height: $height - 18;
+    border-top: 2px solid $color-page_footer;
+}
+
+.page__container{
+    font-family: $font-montserrat;
+    font-size: $font-base-size;
+    color: $color-page-container;
+}
+
+.page__name{
+    color: $color-violet;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up input{
+    width: $width-input;
+    height: $height-input;
+    border: none;
+    line-height: $height-page-btn;
+    text-indent: 10px;
+    border: solid 1px $color-footers-element;
+}
+
+.sign-up input::-webkit-input-placeholder{
+    font-family: $font-roboto;
+    font-style: italic;
+    font-size: $font-base-size + 1;
+    color: $color-footers-element;
+}
+.sign-up input:-ms-input-placeholder{
+    font-family: $font-roboto;
+    font-style: italic;
+    font-size: $font-base-size + 1;
+    color: $color-footers-element;
+}
+.sign-up input::-ms-input-placeholder{
+    font-family: $font-roboto;
+    font-style: italic;
+    font-size: $font-base-size + 1;
+    color: $color-footers-element;
+}
+.sign-up input::placeholder{
+    font-family: $font-roboto;
+    font-style: italic;
+    font-size: $font-base-size + 1;
+    color:$color-footers-element;
+}
+
+.page__btn{
+    width: $width-page-btn;
+    height: $height-page-btn;
+    background-color: #95e1d3;
+    font-family: $font-montserrat;
+    font-size: $font-base-size;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+}

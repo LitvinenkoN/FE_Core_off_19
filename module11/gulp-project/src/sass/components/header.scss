@@ -1,0 +1,136 @@
+.header{
+    position: relative;
+    width: $primary_size;
+    height: $base-size;
+    background-image: url(../img/15@1X-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cart, .glass{
+    @extend %header__icon;
+}
+
+.cart{
+    background-image: url(../img/CART@1X.png);
+}
+
+.glass{
+    background-image: url(../img/GLASS@1X.png);
+}
+
+@media(min-resolution:192dpi), (min-resolution:2dppx){
+    .header{
+        background-image: url(../img/15@2X.png);
+    }
+
+    .cart{
+        background-image: url(../img/CART@2X.png);
+    }
+    .glass{
+        background-image: url(../img/GLASS@2X.png);
+    }
+}
+
+.header-banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $primary_size;
+    height: $base-size;
+    background-image: linear-gradient( to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: $height;
+    width: $base-size;
+    margin: auto;
+    margin-bottom: $margin-bottom + 140;
+}
+
+.header-title__link{
+    font-family: $font-montserrat;
+    font-size: $font-base-size + 16;
+    font-weight: bold;
+    color: $color-white;
+}
+
+.header-list{
+    display: flex;
+    width: $base-size - 508;
+    justify-content: space-between;
+    font-size: $font-base-size;
+}
+
+.header-list__link{
+    text-transform: uppercase;
+    font-family: $font-montserrat;
+    font-size: $font-base-size;
+    font-weight: bold;
+    color: $color-white;
+    cursor: pointer;
+    &:hover{
+        color: $primary-color;
+        transition-property: color;
+        transition-duration: 1s;
+    }
+}
+
+
+
+.header-list__item::after{
+    display: flex;
+    content: '';
+    flex-basis: 50px;
+    height: 3px;
+    background-color: $primary-color;
+    margin-top: $margin-top;
+    opacity: 0;
+}
+
+.header-list__item:hover:not(:nth-last-child(-n+2))::after{
+    transition-property: all;
+    transition-duration: 1s;
+    opacity: 1;
+}
+
+.header__text{
+    margin-bottom: $margin-bottom + 22;
+    font-family: $font_kaushan, cursive;
+    font-weight: $font-weight;
+    font-size: $font-base-size + 58;
+    text-align: center;
+    color: $color-white;
+}
+
+.header__subtitle{
+    margin: 0 auto;
+    margin-bottom: $margin-bottom + 100;
+    width: $base-size - 198;
+    font-family: $font-montserrat;
+    font-weight: bold;
+    color: $color-white;
+    font-size: $font-base-size + 136;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header__link{
+    margin: 0 auto;
+    width: $width-page-btn + 10;
+    padding: $padding;
+    outline: solid 2px $color-white;
+    background-color: transparent;
+    font-family: $font-montserrat;
+    font-weight: bold;
+    font-size: $font-base-size;
+    color: $color-white;
+    text-align: center;
+    text-transform: uppercase;
+}

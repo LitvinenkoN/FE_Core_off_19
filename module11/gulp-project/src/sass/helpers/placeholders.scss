@@ -1,0 +1,33 @@
+%header__icon{
+    width: 18px;
+    height: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+%section__subtitle{
+    font-family: $font_kaushan;
+    font-style: italic;
+    font-weight: $font-weight + 200;
+    font-size: $font-base-size + 10;
+    color: $color-page-container;
+    margin-bottom: $margin-bottom;
+}
+
+%section__title{
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: $font-base-size + 16;
+    text-transform: uppercase;
+    color: $color-page-container;
+    font-weight: bold;
+    margin-bottom: $margin-bottom + 48;
+}
+
+%services{
+    width: $base-size + 140;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom + 22;
+}
