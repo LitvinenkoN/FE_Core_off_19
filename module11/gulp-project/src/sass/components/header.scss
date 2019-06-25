@@ -2,7 +2,7 @@
     position: relative;
     width: $primary_size;
     height: $base-size;
-    background-image: url(../img/15@1X-min.png);
+    background-image: url(/gulp-project/src/images/15@1X-min.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -13,23 +13,23 @@
 }
 
 .cart{
-    background-image: url(../img/CART@1X.png);
+    background-image: url(/gulp-project/src/images/cart@1X.png);
 }
 
 .glass{
-    background-image: url(../img/GLASS@1X.png);
+    background-image: url(/gulp-project/src/images/glass@1X.png);
 }
 
 @media(min-resolution:192dpi), (min-resolution:2dppx){
     .header{
-        background-image: url(../img/15@2X.png);
+        background-image: url(/gulp-project/src/images/15@2X.png);
     }
 
     .cart{
-        background-image: url(../img/CART@2X.png);
+        background-image: url(/gulp-project/src/images/cart@2X.png);
     }
     .glass{
-        background-image: url(../img/GLASS@2X.png);
+        background-image: url(/gulp-project/src/images/glass@2X.png);
     }
 }
 
