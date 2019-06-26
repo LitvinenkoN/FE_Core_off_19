@@ -433,6 +433,12 @@ template {
   padding-bottom: 102px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .link {
   display: block;
   text-decoration: none;
@@ -446,12 +452,6 @@ template {
 
 .text {
   margin: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .header {
