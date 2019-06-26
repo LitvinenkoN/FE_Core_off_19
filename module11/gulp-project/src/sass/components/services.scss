@@ -42,13 +42,13 @@
      display: block;
      width: $size_before;
      height: $size_before;
-     background-image: url(images/sprite.svg#icon-alarm);
+     background-image: url(/gulp-project/src/images/sprite.svg#icon-alarm);
      
  
  }
  
  .linear::before{
-     background-image: url(images/sprite.svg#icon-graf);
+     background-image: url(/gulp-project/src/images/sprite.svg#icon-graf);
  }
  
  .comp::before{
