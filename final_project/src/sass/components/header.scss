@@ -1,0 +1,225 @@
+.header{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    padding-top: 25px;
+    background-image: url(../images/layer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @media(min-resolution:192dpi), (min-resolution:2dppx){
+        .header{
+            background-image: url(../images/layer@2X.png);
+        }
+    }
+
+    @media(min-width:768px){
+        height: 920px;
+        padding-top: 40px;
+    }
+}
+
+.header__banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    padding-top: 25px;
+    background-color: hsla(223, 35%, 55%, 0.3);
+
+    @media(min-width:768px){
+        height: 920px;
+        padding-top: 40px;
+    }
+}
+
+.header__link{
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media(min-resolution:192dpi),(min-resolution:2dppx){
+        background-image: url(../images/logo@2x.png);
+    }
+
+    @media(min-width: 768px){
+        margin-left: 74px;
+    }
+}
+
+.header__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 260px;
+    height: 310px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+
+    @media(min-width:768px){
+        padding: 0;
+       width: 570px;
+       height: 380px;
+       margin-left: 74px;
+       padding-bottom: 24px;
+       margin-top: 30px;
+    }
+}
+
+.header__text{
+    font-family: $secondary-font-stack;
+    font-size: 14px;
+    color: $white-color;
+    font-weight: 500;
+    line-height: 1.3;
+    font-style: normal;
+}
+
+.header__subtext{
+    font-family: $primary-font-stack;
+    font-size: 19px;
+    color: $primery-color;
+    font-weight: bold;
+    line-height: 1.3;
+    font-style: normal;
+
+    @media(min-width:768px){
+        font-size: 40px;
+    }
+}
+
+.header__paragraph{
+    font-family: $medium-font-stack;
+    font-size: 14px;
+    color: $white-color;
+    font-weight: 500;
+    line-height: 1.3;
+    font-style: normal;
+
+    @media(min-width:768px){
+        font-size: 18px;
+    }
+}
+
+.header__meettext{
+    font-family: $primary-font-stack;
+    font-size: 14px;
+    color: $secondary-color;
+    font-weight: bold;
+    line-height: 1.3;
+    font-style: normal;
+
+    @media(min-width:768px){
+        font-size: 18px;
+    }
+}
+
+.header__datetext{
+    font-family: $primary-font-stack;
+    font-size: 20px;
+    color: $secondary-color;
+    font-weight: bold;
+    line-height: 1.3;
+    font-style: normal;
+
+    @media(min-width:768px){
+        font-size: 40px;
+    }
+}
+
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 8px;
+    width: 260px;
+    height: 390px;
+    background-color: $white-color;
+    padding: 20px 20px;
+    box-shadow: 0px 12px 70px 0px rgba(121, 139, 188, 0.48);
+
+    @media(min-width: 768px){
+        width: 624px;
+        height: 400px;
+        padding: 35px 70px 40px 70px;
+    }
+}
+
+.header-wrapper__text{
+    font-family: $primary-font-stack;
+    font-size: 15px;
+    color: $black-color;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.3;
+    margin-bottom: 10px;
+
+    @media(min-width:768px){
+        font-size: 24px;
+    }
+}
+
+.header-wrapper__subtext{
+    font-family: $light-font-stack;
+    font-size: 13px;
+    color: $black-color;
+    font-style: normal;
+    line-height: 1.3;
+    font-weight: 200;
+    margin-bottom: 18px;
+}
+
+.header-form input{
+    width: 220px;
+    height: 40px;
+    padding: 20px 20px;
+    margin-bottom: 14px;
+    &:last-of-type{
+        margin-bottom: 24px;
+    }
+
+    @media(min-width:768px){
+        width: 468px;
+        
+    }
+}
+
+.header-form input::placeholder{
+    font-family: $medium-font-stack;
+    font-size:14px;
+    color: $gray-color;
+}
+
+.header-form__btn{
+    margin: 0 auto;
+    width: 220px;
+    height: 40px;
+    border: none;
+    background-color: $secondary-color;
+    color: $white-color;
+    font-family: $primary-font-stack;
+    font-size:16px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 10px 0px rgba(255, 107, 8, 0.59);
+
+    @media(min-width:768px){
+        width: 468px;
+    }
+}
+
+.header__lasttext{
+    color:$base-font-color;
+    font-family: $secondary-font-stack;
+    font-size: 13px;
+    text-align: center;
+}
