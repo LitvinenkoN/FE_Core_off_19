@@ -43,28 +43,28 @@
      display: block;
      width: $size_before;
      height: $size_before;
-     background-image: url(/gulp-project/build/images/sprite.svg#icon-alarm);
+     background-image: url(../build/images/sprite.svg#icon-alarm);
      
  
  }
  
  .linear::before{
-     background-image: url(/gulp-project/build/images/sprite.svg#icon-graf);
+     background-image: url(../build/images/sprite.svg#icon-graf);
  }
  
  .comp::before{
-     background-image: url(/gulp-project/build/images/sprite.svg#icon-computer);
+     background-image: url(../build/images/sprite.svg#icon-computer);
  }
  
  .book::before{
-     background-image: url(/gulp-project/build/images/sprite.svg#icon-book);
+     background-image: url(../build/images/sprite.svg#icon-book);
  }
  
  .house::before{
-     background-image: url(/gulp-project/build/images/sprite.svg#icon-home);
+     background-image: url(../build/images/sprite.svg#icon-home);
  }
  .digital::before{
-     background-image: url(/gulp-project/build/images/sprite.svg#icon-image);
+     background-image: url(../build/images/sprite.svg#icon-image);
  }
  
  .services__title{
