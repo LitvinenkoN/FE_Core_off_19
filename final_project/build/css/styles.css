@@ -475,6 +475,12 @@ img {
   margin-left: 30px;
 }
 
+.header-wrabber-box {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
 .header__box {
   display: flex;
   flex-direction: column;
@@ -662,6 +668,69 @@ img {
 
   .header-form__btn {
     width: 468px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    height: 944px;
+  }
+
+  .header__banner {
+    height: 944px;
+  }
+
+  .header-wrabber-box {
+    height: 730px;
+    width: 1190px;
+    flex-wrap: wrap;
+  }
+
+  .header__box {
+    padding-bottom: 0;
+    padding-top: 74px;
+    width: 636px;
+    height: 674px;
+  }
+
+  .header__text {
+    font-size: 20px;
+  }
+
+  .header__subtext {
+    font-size: 60px;
+  }
+
+  .header__paragraph {
+    font-size: 35px;
+  }
+
+  .header-wrapper {
+    width: 462px;
+    height: 668px;
+    padding: 40px 35px 50px 35px;
+  }
+
+  .header-wrapper__text {
+    font-size: 35px;
+  }
+
+  .header-wrapper__subtext {
+    font-size: 18px;
+  }
+
+  .header-form input {
+    width: 390px;
+    height: 60px;
+  }
+
+  .header-form__btn {
+    width: 390px;
+    height: 60px;
+  }
+
+  .header__lasttext {
+    font-size: 17px;
   }
 }
 
