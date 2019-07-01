@@ -1,47 +1,54 @@
 @font-face{
     font-family: 'Acrom-Bold';
-    src: url(/src/fonts/Acrom-Bold.woff);
-    src: url(/src/fonts/Acrom-Bold.ttf);
-    font-weight: normal;
+    src: url(/project/src/fonts/Acrom-Bold.woff);
+    src: url(/project/src/fonts/Acrom-Bold.ttf);
+    font-weight: bold;
     font-size: normal;
 }
 
 @font-face{
     font-family: 'Acrom-ExtraBold';
-    src: url(/src/fonts/Acrom-ExtraBold.woff);
-    src: url(/src/fonts/Acrom-ExtraBold.ttf);
-    font-weight: normal;
+    src: url(/project/src/fonts/Acrom-ExtraBold.woff);
+    src: url(/project/src/fonts/Acrom-ExtraBold.ttf);
+    font-weight: bold;
     font-size: normal;
 }
 
 @font-face{
     font-family: 'Acrom-Light';
-    src: url(/src/fonts/Acrom-Light.woff);
-    src: url(/src/fonts/Acrom-Light.ttf);
+    src: url(/project/src/fonts/Acrom-Light.woff);
+    src: url(/project/src/fonts/Acrom-Light.ttf);
     font-weight: normal;
     font-size: normal;
 }
 
 @font-face{
     font-family: 'Acrom-Medium';
-    src: url(/src/fonts/Acrom-Medium.woff);
-    src: url(/src/fonts/Acrom-Medium.ttf);
+    src: url(/project/src/fonts/Acrom-Medium.woff);
+    src: url(/project/src/fonts/Acrom-Medium.ttf);
     font-weight: normal;
     font-size: normal;
 }
 
 @font-face{
     font-family: 'Acrom-Regular';
-    src: url(/src/fonts/Acrom-Regular.woff);
-    src: url(/src/fonts/Acrom-Regular.ttf);
+    src: url(/project/src/fonts/Acrom-Regular.woff);
+    src: url(/project/src/fonts/Acrom-Regular.ttf);
     font-weight: normal;
     font-size: normal;
 }
 
 @font-face{
     font-family: 'Acrom-Thin';
-    src: url(/src/fonts/Acrom-Thin.woff);
-    src: url(/src/fonts/Acrom-Thin.ttf);
+    src: url(/project/src/fonts/Acrom-Thin.woff);
+    src: url(/project/src/fonts/Acrom-Thin.ttf);
     font-weight: normal;
+    font-size: normal;
+}
+
+@font-face{
+    font-family: 'Montserrat_Bold';
+    src: url(/project/src/fonts/MontserratSubrayada-Bold.ttf);
+    font-weight: bold;
     font-size: normal;
 }

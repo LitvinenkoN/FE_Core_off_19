@@ -377,49 +377,56 @@ template {
 
 @font-face {
   font-family: 'Acrom-Bold';
-  src: url(/src/fonts/Acrom-Bold.woff);
-  src: url(/src/fonts/Acrom-Bold.ttf);
-  font-weight: normal;
+  src: url(/project/src/fonts/Acrom-Bold.woff);
+  src: url(/project/src/fonts/Acrom-Bold.ttf);
+  font-weight: bold;
   font-size: normal;
 }
 
 @font-face {
   font-family: 'Acrom-ExtraBold';
-  src: url(/src/fonts/Acrom-ExtraBold.woff);
-  src: url(/src/fonts/Acrom-ExtraBold.ttf);
-  font-weight: normal;
+  src: url(/project/src/fonts/Acrom-ExtraBold.woff);
+  src: url(/project/src/fonts/Acrom-ExtraBold.ttf);
+  font-weight: bold;
   font-size: normal;
 }
 
 @font-face {
   font-family: 'Acrom-Light';
-  src: url(/src/fonts/Acrom-Light.woff);
-  src: url(/src/fonts/Acrom-Light.ttf);
+  src: url(/project/src/fonts/Acrom-Light.woff);
+  src: url(/project/src/fonts/Acrom-Light.ttf);
   font-weight: normal;
   font-size: normal;
 }
 
 @font-face {
   font-family: 'Acrom-Medium';
-  src: url(/src/fonts/Acrom-Medium.woff);
-  src: url(/src/fonts/Acrom-Medium.ttf);
+  src: url(/project/src/fonts/Acrom-Medium.woff);
+  src: url(/project/src/fonts/Acrom-Medium.ttf);
   font-weight: normal;
   font-size: normal;
 }
 
 @font-face {
   font-family: 'Acrom-Regular';
-  src: url(/src/fonts/Acrom-Regular.woff);
-  src: url(/src/fonts/Acrom-Regular.ttf);
+  src: url(/project/src/fonts/Acrom-Regular.woff);
+  src: url(/project/src/fonts/Acrom-Regular.ttf);
   font-weight: normal;
   font-size: normal;
 }
 
 @font-face {
   font-family: 'Acrom-Thin';
-  src: url(/src/fonts/Acrom-Thin.woff);
-  src: url(/src/fonts/Acrom-Thin.ttf);
+  src: url(/project/src/fonts/Acrom-Thin.woff);
+  src: url(/project/src/fonts/Acrom-Thin.ttf);
   font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat_Bold';
+  src: url(/project/src/fonts/MontserratSubrayada-Bold.ttf);
+  font-weight: bold;
   font-size: normal;
 }
 
@@ -471,8 +478,12 @@ img {
   background-color: rgba(100, 123, 180, 0.3);
 }
 
-.header__link {
-  margin-left: 30px;
+.header-generaly-box {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 320px;
+  height: 100%;
 }
 
 .header-wrabber-box {
@@ -485,7 +496,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 30px;
   width: 260px;
   height: 310px;
   padding-top: 20px;
@@ -517,14 +527,14 @@ img {
 .header__meettext {
   font-family: "Acrom-ExtraBold", sans-serif;
   font-size: 14px;
-  color: #F9AE23;
+  color: #f5ad27;
   font-weight: bold;
 }
 
 .header__datetext {
   font-family: "Acrom-ExtraBold", sans-serif;
   font-size: 20px;
-  color: #F9AE23;
+  color: #f5ad27;
   font-weight: bold;
 }
 
@@ -563,6 +573,7 @@ img {
   height: 40px;
   padding: 20px 20px;
   margin-bottom: 14px;
+  outline: 1px #525252;
 }
 
 .header-form input:last-of-type {
@@ -598,7 +609,7 @@ img {
   width: 220px;
   height: 40px;
   border: none;
-  background-color: #F9AE23;
+  background-color: rgba(255, 107, 8, 0.59);
   color: #FFFFFF;
   font-family: "Acrom-ExtraBold", sans-serif;
   font-size: 16px;
@@ -614,6 +625,148 @@ img {
   text-align: center;
 }
 
+.section {
+  width: 100%;
+  padding-top: 34px;
+}
+
+.section-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 266px;
+  height: 560px;
+  margin: auto;
+}
+
+.section-wrapper {
+  width: 286px;
+  line-height: 1.3;
+}
+
+.section-wrapper__title {
+  font-family: "Acrom-ExtraBold", sans-serif;
+  font-size: 20px;
+  color: #222222;
+  font-weight: bold;
+}
+
+.section-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  position: relative;
+  font-size: 14px;
+  width: 220px;
+  height: 426px;
+}
+
+.section-list__item {
+  line-height: 1.3;
+}
+
+.section-list__item::before {
+  position: absolute;
+  display: block;
+  content: '\2192';
+  left: -30px;
+  color: #00EAFF;
+}
+
+.section-list__accent {
+  font-weight: bold;
+}
+
+.consultation {
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 38px;
+  background-color: #EDF0F2;
+}
+
+.consultaion__title {
+  margin: 0 auto;
+  width: 240px;
+  text-align: center;
+  font-family: "Acrom-ExtraBold", sans-serif;
+  font-size: 20px;
+  color: #222222;
+  margin-bottom: 36px;
+  line-height: 1.5;
+}
+
+.consultation-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  width: 226px;
+  height: 772px;
+  line-height: 1.3;
+  margin-bottom: 34px;
+  font-size: 16px;
+}
+
+.consultation-list__item {
+  position: relative;
+  width: 226px;
+  height: 230px;
+  padding: 40px 35px 0 30px;
+  font-family: "Acrom-Regular", sans-serif;
+  color: #222222;
+  box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.3);
+  background-color: #FFFFFF;
+}
+
+.consultation-list__item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 24px;
+  left: -14px;
+  width: 60px;
+  height: 2px;
+  background-color: #00EAFF;
+}
+
+.consultation-list__item::after {
+  content: "01";
+  position: absolute;
+  top: -42px;
+  right: 0;
+  font-family: "Montserrat_Bold";
+  font-size: 50px;
+  color: #fbfcfb;
+  font-weight: bold;
+}
+
+.second::after {
+  content: '02';
+}
+
+.third::after {
+  content: '03';
+}
+
+.consultation-list__accent {
+  font-weight: bold;
+}
+
+.consultation__btn {
+  display: block;
+  margin: 0 auto;
+  width: 226px;
+  height: 106px;
+  border: none;
+  background-color: rgba(255, 107, 8, 0.59);
+  color: #FFFFFF;
+  font-family: "Acrom-ExtraBold", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0px 2px 10px 0px rgba(255, 107, 8, 0.59);
+}
+
 @media (min-width: 768px) {
   .header {
     height: 900px;
@@ -625,14 +778,13 @@ img {
     padding-top: 40px;
   }
 
-  .header__link {
-    margin-left: 74px;
+  .header-generaly-box {
+    width: 570px;
   }
 
   .header__box {
     width: 570px;
     height: 380px;
-    margin-left: 74px;
     padding-bottom: 24px;
   }
 
@@ -669,6 +821,58 @@ img {
   .header-form__btn {
     width: 468px;
   }
+
+  .section {
+    padding-bottom: 30px;
+  }
+
+  .section-box {
+    width: 610px;
+    height: 360px;
+  }
+
+  .section-wrapper {
+    width: 582px;
+  }
+
+  .section-wrapper__title {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+
+  .section-list {
+    width: 560px;
+    height: 260px;
+    font-size: 16px;
+  }
+
+  .consultation {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+
+  .consultaion__title {
+    width: 546px;
+    font-size: 30px;
+    margin-bottom: 52px;
+  }
+
+  .consultation-list {
+    flex-wrap: wrap;
+    width: 716px;
+    height: 230px;
+  }
+
+  .consultation-list__item::after {
+    font-size: 70px;
+    top: -50px;
+  }
+
+  .consultation__btn {
+    width: 530px;
+    height: 70px;
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -678,6 +882,10 @@ img {
 
   .header__banner {
     height: 944px;
+  }
+
+  .header-generaly-box {
+    width: 1190px;
   }
 
   .header-wrabber-box {
@@ -731,6 +939,70 @@ img {
 
   .header__lasttext {
     font-size: 17px;
+  }
+
+  .section {
+    padding-top: 132px;
+    padding-bottom: 100px;
+  }
+
+  .section-box {
+    flex-wrap: wrap;
+    width: 1144px;
+    height: 434px;
+  }
+
+  .section-wrapper {
+    width: 486px;
+  }
+
+  .section-wrapper__title {
+    font-size: 48px;
+  }
+
+  .section-list {
+    width: 478px;
+    height: 436px;
+    font-size: 18px;
+  }
+
+  .consultation {
+    padding-bottom: 100px;
+  }
+
+  .consultaion__title {
+    width: 1036px;
+    font-size: 48px;
+    margin-bottom: 114px;
+  }
+
+  .consultation-list {
+    width: 1146px;
+    height: 272px;
+    margin-bottom: 76px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .consultation-list__item {
+    padding-top: 64px;
+    width: 350px;
+    height: 276px;
+  }
+
+  .consultation-list__item::before {
+    top: 40px;
+  }
+
+  .consultation-list__item::after {
+    top: -122px;
+    font-size: 150px;
+  }
+
+  .consultation__btn {
+    width: 812px;
+    height: 110px;
+    font-size: 24px;
   }
 }
 
