@@ -478,6 +478,10 @@ img {
   background-color: rgba(100, 123, 180, 0.3);
 }
 
+.header__link {
+  height: 80px;
+}
+
 .header-generaly-box {
   display: flex;
   flex-direction: column;
