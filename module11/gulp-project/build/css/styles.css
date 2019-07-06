@@ -607,27 +607,27 @@ img {
   display: block;
   width: 32px;
   height: 32px;
-  background-image: url(../images/sprite.svg#icon-alarm);
+  background-image: url(.../build/images/sprite.svg#icon-alarm);
 }
 
 .linear::before {
-  background-image: url(../images/sprite.svg#icon-graf);
+  background-image: url(.../build/images/sprite.svg#icon-graf);
 }
 
 .comp::before {
-  background-image: url(../images/sprite.svg#icon-computer);
+  background-image: url(.../build/images/sprite.svg#icon-computer);
 }
 
 .book::before {
-  background-image: url(../images/sprite.svg#icon-book);
+  background-image: url(.../build/images/sprite.svg#icon-book);
 }
 
 .house::before {
-  background-image: url(../images/sprite.svg#icon-home);
+  background-image: url(.../build/images/sprite.svg#icon-home);
 }
 
 .digital::before {
-  background-image: url(../images/sprite.svg#icon-image);
+  background-image: url(.../build/images/sprite.svg#icon-image);
 }
 
 .services__title {
@@ -834,7 +834,7 @@ img {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .header {
-    background-image: url(../images/banner@2x.img);
+    background-image: url(../images/banner@2x.);
   }
 
   .cart {
