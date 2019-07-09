@@ -43,28 +43,28 @@
      display: block;
      width: $size_before;
      height: $size_before;
-     background-image: url(../images/sprite.svg#icon-alarm);
+     background-image: url(../images/icon-alarm.svg);
      
  
  }
  
  .linear::before{
-     background-image: url(../images/sprite.svg#icon-graf);
+     background-image: url(../images/icon-graf.svg);
  }
  
  .comp::before{
-     background-image: url(../images/sprite.svg#icon-computer);
+     background-image: url(../images/icon-computer.svg);
  }
  
  .book::before{
-     background-image: url(../images/sprite.svg#icon-book);
+     background-image: url(../images/icon-book.svg);
  }
  
  .house::before{
-     background-image: url(../images/sprite.svg#icon-home);
+     background-image: url(../images/icon-home.svg);
  }
  .digital::before{
-     background-image: url(../images/sprite.svg#icon-image);
+     background-image: url(../images/icon-image.svg);
  }
  
  .services__title{
